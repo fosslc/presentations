@@ -1,0 +1,14 @@
+body {
+	background-image: url('../images/logo-800x188.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 25%;
+}
+
+.eclipse-table table {
+	border-collapse: collapse;
+}
+
+.eclipse-table td,th {
+	border: 1px solid black;
+}

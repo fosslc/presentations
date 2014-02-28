@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>Eclipse Boot Presentation</title>
+
+<meta name="description" content="Booth duty presentation.">
+<meta name="author" content="Wayne Beaton">
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style"
+	content="black-translucent" />
+
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="../../reveal.js/css/reveal.min.css">
+<link rel="stylesheet" href="../../reveal.js/css/theme/solarized.css" id="theme">
+<link rel="stylesheet" href="../css/eclipse.css" id="theme">
+
+<!-- For syntax highlighting -->
+<link rel="stylesheet" href="../../reveal.js/lib/css/zenburn.css">
+
+<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+<script>
+	document.write('<link rel="stylesheet" href="reveal.js/css/print/'
+			+ (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper')
+			+ '.css" type="text/css" media="print">');
+</script>
+
+<!--[if lt IE 9]>
+        <script src="../../reveal.js/lib/js/html5shiv.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<h1>The Eclipse Foundation</h1>
+				<p>Copyright &copy; 2014 Eclipse Foundation, Inc., Made available under the Eclipse Public License v 1.0</p>
+			</section>
+			<section>
+				<h2>What do we do?</h2>
+				<ul>
+					<li>Open source projects</li>
+					<li>Intellectual property management</li>
+					<li>IT infrastructure</li>
+					<li>Working groups</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Who and When?</h2>
+				<div class="eclipse-table">
+				<table>
+					<tr>
+						<th></th>
+						<th>Tuesday</th>
+						<th>Wednesday</th>
+						<th>Thursday</th>
+					</tr>
+					<tr>
+						<th>Morning Break<br />10:00 - 10:30
+						</th>
+						<td>
+							<p>Andrew</p>
+							<p>Wayne</p>
+						</td>
+						<td>
+							<p>Matt</p>
+							<p>Gaël</p>
+						</td>
+						<td>
+							<p>Sharon</p>
+							<p>Ralph</p>
+						</td>
+					</tr>
+					<tr>
+						<th>Lunch 1<br />11:50 - 12:40
+						</th>
+						<td>
+							<p>Andrew</p>
+							<p>Benjamin</p>
+						</td>
+						<td>
+							<p>Gaël</p>
+							<p>Ralph</p>
+						</td>
+						<td>
+							<p>Denis</p>
+							<p>Chris G</p>
+						</td>
+					</tr>
+					<tr>
+						<th>Lunch 2<br />12:40 - 13:30
+						</th>
+						<td>
+							<p>Sharon</p>
+							<p>Andrew</p>
+							<p>Wayne</p>
+						</td>
+						<td>
+							<p>Sharon</p>
+							<p>Matt</p>
+						</td>
+						<td>
+							<p>Sharon</p>
+							<p>Wayne</p>
+							<p>Benjamin</p>
+						</td>
+					</tr>
+					<tr>
+						<th>Afternoon Break<br />15:35 - 16:15
+						</th>
+						<td>
+							<p>Sharon</p>
+							<p>Denis</p>
+						</td>
+						<td>
+							<p>Gaël</p>
+							<p>Sharon</p>
+						</td>
+						<td>&nbsp;</td>
+					</tr>
+				</table>
+				</div>
+			</section>
+
+			<section>
+				<h2>Agenda</h2>
+				<ul>
+					<li>What is a Merge?</li>
+					<li>What is a Merge Commit?</li>
+					<li>What is a Rebase?</li>
+				</ul>
+			</section>
+
+		</div>
+
+	</div>
+
+	<script src="../../reveal.js/lib/js/head.min.js"></script>
+	<script src="../../reveal.js/js/reveal.min.js"></script>
+
+	<script>
+		// Full list of configuration options available here:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			autoSlide: 3000,
+			loop: true,
+			controls : false,
+			progress : false,
+			history : false,
+			center : true,
+			maxScale: 5.0,
+
+			theme : Reveal.getQueryHash().theme, // available themes are in /css/theme
+			transition : Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+			// Parallax scrolling
+			// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+			// parallaxBackgroundSize: '2100px 900px',
+
+			// Optional libraries used to extend on reveal.js
+			dependencies : [ {
+				src : '../../reveal.js/lib/js/classList.js',
+				condition : function() {
+					return !document.body.classList;
+				}
+			}, {
+				src : '../../reveal.js/plugin/markdown/marked.js',
+				condition : function() {
+					return !!document.querySelector('[data-markdown]');
+				}
+			}, {
+				src : '../../reveal.js/plugin/markdown/markdown.js',
+				condition : function() {
+					return !!document.querySelector('[data-markdown]');
+				}
+			}, {
+				src : '../../reveal.js/plugin/highlight/highlight.js',
+				async : true,
+				callback : function() {
+					hljs.initHighlightingOnLoad();
+				}
+			}, {
+				src : '../../reveal.js/plugin/zoom-js/zoom.js',
+				async : true,
+				condition : function() {
+					return !!document.body.classList;
+				}
+			}, {
+				src : '../../reveal.js/plugin/notes/notes.js',
+				async : true,
+				condition : function() {
+					return !!document.body.classList;
+				}
+			} ]
+		});
+	</script>
+
+</body>
+</html>
