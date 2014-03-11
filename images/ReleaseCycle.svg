@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="23cm" height="8cm" viewBox="59 -3 442 143" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="380" y="100" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="380" y="100" width="120" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="124.45">
+    <tspan x="440" y="124.45">Release</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="60" y="20" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="60" y="20" width="120" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="120" y="44.45">
+    <tspan x="120" y="44.45">Capture Plan</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="220" y="20" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="20" width="120" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="280" y="44.45">
+    <tspan x="280" y="44.45">Implement</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="180.977" y1="40" x2="214.551" y2="40"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="206.787,45 216.787,40 206.787,35 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="340.977" y1="40" x2="374.551" y2="40"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="366.787,45 376.787,40 366.787,35 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="380,120 120,120 120,64.4721 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="125,72.2361 120,62.2361 115,72.2361 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="380" y="20" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="380" y="20" width="120" height="40"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="36.45">
+    <tspan x="440" y="36.45">Produce</tspan>
+    <tspan x="440" y="52.45">Milestone</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="280,15.5279 280,-1 440,-1 440,20 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="275,7.76393 280,17.7639 285,7.76393 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="440" y1="60.9766" x2="440" y2="94.5513"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="435,86.7874 440,96.7874 445,86.7874 "/>
+  </g>
+</svg>
